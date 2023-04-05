@@ -156,7 +156,7 @@ iMac18,3|For High Sierra and older.
 		- 0x3E9B0007 - Replace AAAAAAAA. Alternative to `07009B3E` if it doesn't work.
 		- 0300913E - Replace AAAAAAAA. Used when the Desktop iGPU is only used for computing tasks and doesn't drive a display.
 		
-	- framebuffer-patch-enabl - Uncomment if no BIOS options for iGPU memory.
+	- framebuffer-patch-enable - Uncomment if no BIOS options for iGPU memory.
 	- framebuffer-stolenmem - Uncomment if no BIOS options for iGPU memory.
 
 ### GPU-Specific `boot-args`

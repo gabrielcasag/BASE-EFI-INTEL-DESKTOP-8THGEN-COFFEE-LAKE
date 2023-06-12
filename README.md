@@ -4,8 +4,8 @@ Note|Description
 :----|:----
 Initial macOS Support|macOS 10.13, High Sierra.
 
-- Opencore version: 0.9.2
-- Release date: 08/05/2023 (delayed a week)
+- Opencore version: 0.9.3
+- Release date: 12/06/2023 (delayed a week)
 
 # Basic Steps
 
@@ -141,8 +141,7 @@ iMac18,3|For High Sierra and older.
 # Special notes
 
 - USB port mapping is **REQUIRED**.
-- **`XhciPortLimit`** - Needed **`DISABLE`** if you use Big Sur 11.3+. 
-	- Please Mapping USB in macOS Catalina before install Big Sur or Newer for best results.
+- **`XhciPortLimit`** - Please `**ENABLE**` to map the USB ports
 	- You can use USBMap.command Utility - [USBMap](https://github.com/corpnewt/USBMap).
 - **`AppleXcpmCfgLock`** - Please **`ENABLE`** if you cannot disable`CFG-Lock` in BIOS.
 - **`ProtectUefiServices`** - Please **`ENABLE`** on Z390 system.

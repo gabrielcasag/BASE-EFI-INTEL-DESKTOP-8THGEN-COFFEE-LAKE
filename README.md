@@ -4,8 +4,8 @@ Note|Description
 :----|:----
 Initial macOS Support|macOS 10.13, High Sierra.
 
-- Opencore version: 0.9.3
-- Release date: 12/06/2023 (delayed a week)
+- Opencore version: 0.9.4
+- Release date: 07/08/2023
 
 # Basic Steps
 

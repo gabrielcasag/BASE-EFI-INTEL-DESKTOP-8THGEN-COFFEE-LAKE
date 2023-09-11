@@ -4,8 +4,8 @@ Note|Description
 :----|:----
 Initial macOS Support|macOS 10.13, High Sierra.
 
-- Opencore version: 0.9.4
-- Release date: 07/08/2023
+- Opencore version: 0.9.5
+- Release date: 11/09/2023
 
 # Basic Steps
 
@@ -75,6 +75,7 @@ Kext|Description
 [SATA-Unsupported](https://github.com/khronokernel/Legacy-Kexts/blob/master/Injectors/Zip/SATA-unsupported.kext.zip)|Adds support for a large variety of SATA controllers, mainly relevant for laptops which have issues seeing the SATA drive in macOS.<br>We recommend testing without this first.
 [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases)|Better experience with unsupported processors like AMD, Disable MacPro7,1 memory warnings and provide upgrade to macOS Monterey via Software Updates when available.
 [CpuTscSync](https://github.com/acidanthera/CpuTscSync/releases)|It is a Lilu plugin, combining functionality of VoodooTSCSync and disabling xcpm_urgency if TSC is not in sync. It should solve some kernel panics after wake.
+[SMDRadeonGPU](https://github.com/aluveitie/RadeonSensor)|Used for monitoring GPU temperature on AMD GPU systems. Requires RadeonSensor from the same repository. Requires macOS 11 or newer.
 
 # ACPI Tables
 
@@ -88,7 +89,7 @@ SSDT-AWAC|[Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universa
 SSDT-PMC|[Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/nvram-methods/manual.html) \| [Prebuilt](https://github.com/dortania/Getting-Started-With-ACPI/raw/master/extra-files/compiled/SSDT-PMC.aml) \| [Details](https://dortania.github.io/Getting-Started-With-ACPI/Universal/nvram.html)
 
 ### Dumping your DSDT in Windows Environment
-[Download iASL Compiler ACPI Tools](https://acpica.org/downloads/binary-tools)
+[Download iASL Compiler ACPI Tools](https://www.intel.com/content/www/us/en/download/774881/acpi-component-architecture-downloads-windows-binary-tools.html)
 <br><br>
 Open the CMD in the directory where the *ACPI Tools* was extracted. (*Command Prompt*) in **Administrator Mode**:
 ```
